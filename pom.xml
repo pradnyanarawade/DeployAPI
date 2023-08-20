@@ -35,6 +35,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<configuration>
+                <mainClass>com.validation.DeployApiApplication</mainClass>
+            </configuration>
+
+			
 		</plugins>
 		<finalName>deployapi</finalName>
 	</build>
